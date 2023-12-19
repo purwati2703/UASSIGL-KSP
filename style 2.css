@@ -1,0 +1,125 @@
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk peta */
+#map {
+    height: 500px;
+    width: 100%;
+    background-color: blue;
+}
+
+/* Gaya untuk judul dan teks */
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* Gaya untuk legenda */
+#legenda {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.legenda h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.legenda ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.legenda li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Gaya untuk setiap kategori legenda */
+.legend-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.sungai-legend {
+    background-color: #000080; /* Warna biru untuk Sungai */
+}
+
+.jalan-legend {
+    background-color: black; /* Warna merah untuk Jalan */
+}
+
+.jalan-tol-legend {
+    background-color: orangered; /* Warna hijau untuk Jalan Tol */
+}
+
+.waduk-legend {
+    background-color: red; /* Warna merah untuk Waduk */
+}
+
+.perkebunan-legend {
+    background-color: #87cefa; /* Warna ungu untuk Perkebunan */
+}
+
+.tambak-legend {
+    background-color: #008080; /* Warna oranye untuk Tambak */
+}
+
+.pemukiman-legend {
+    background-color: yellow; /* Warna kuning gelap untuk Pemukiman */
+}
+
+.ladang-legend {
+    background-color: #a95e13; /* Warna merah gelap untuk Ladang */
+}
+
+.lahan-terbuka-legend {
+    background-color: #A9A9A9; /* Warna abu-abu untuk Lahan Terbuka */
+}
+
+.sawah-irigasi-legend {
+    background-color: #5e819d; /* Warna biru hijau untuk Sawah Irigasi */
+}
+
+/* Gaya untuk pesan berjalan */
+#pesanBerjalan {
+    color: black;
+    background-color: green;
+    padding: 2px;
+    text-align: center;
+}
+
+#pesanBerjalan marquee {
+    white-space: nowrap;
+}
+/* Gaya untuk kontrol tampilan peta */
+.tampilan-peta button {
+    background-color: #3498db; /* Warna latar belakang tombol (biru) */
+    color: #fff; /* Warna teks tombol (putih) */
+    padding: 8px 12px; /* Padding tombol */
+    font-size: 14px; /* Ukuran teks tombol */
+    border: none; /* Menghilangkan border */
+    border-radius: 5px; /* Border radius untuk sudut tombol */
+    cursor: pointer;
+}
+
+/* Gaya untuk tombol satelit saat dihover */
+.tampilan-peta button:hover {
+    background-color: #2980b9; /* Warna latar belakang tombol saat dihover (biru yang sedikit lebih gelap) */
+}
